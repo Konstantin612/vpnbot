@@ -84,7 +84,7 @@ async def help_command(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Вставьте сюда ваш токен, который вы получили от BotFather
-    application = Application.builder().token("7524922700:AAE2s_X4WTSnszPMgIG5qzzffgqoFHyNUls").build()
+    application = Application.builder().token("").build()
 
     # Обработчики команд
     application.add_handler(CommandHandler("start", start))
